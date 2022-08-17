@@ -59,7 +59,7 @@ h4{
     margin: 0;
     padding: 0;
     padding-top: 7px;
-    padding-left: 7px;
+    padding-left: 30px;
 }
 
 #pfp{
@@ -93,11 +93,11 @@ span:hover{
     border-radius: 7px;
     width: 300px;
     height: 300px;
-    background-color:hsl(178, 100%, 34%);
+    background-color:hsl(178, 75%, 31%);
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 33%;
+    top: 34%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -110,10 +110,11 @@ span:hover{
 
 #pfp:hover{
     cursor: pointer;
+    border: 1px solid rgb(34, 176, 176);
 }
 
   .container:hover .middle {
-    opacity: 0.5;
+    opacity: 0.75;
     cursor: pointer;
   }
 
