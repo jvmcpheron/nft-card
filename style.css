@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#nft-card{
+    width:350px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+}
+
+row image{
+    border-radius: 25px;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+.small-text{
+    font-size: 15px;
+    width: 30%;
+}
+
+.time-left{
+    padding-left: 3px;
+}
+
+.ethprice{
+    width: 40%;
+}
+
+h4{
+    font-size: 15px;
+    color:hsl(178, 100%, 50%);
+    padding-left: 0;
+    margin-right: 55px;
+}
+
+.logos{
+    width: 6%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#name{
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+#pfp{
+    margin: 0;
+    padding: 0;
+    border-radius: 27px;
+    border: 1px solid rgb(213, 215, 225);
+}
+
+hr {
+    color: hsl(215, 51%, 70%);
+    width: 90%;
+    height: 1px;
+}
