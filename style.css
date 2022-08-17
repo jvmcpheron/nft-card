@@ -74,3 +74,49 @@ hr {
     width: 90%;
     height: 1px;
 }
+
+span{
+    color:rgb(213, 215, 225);
+}
+
+span:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+.nft-title:hover{
+    cursor: pointer;
+    color:aqua;
+}
+
+.middle {
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    background-color:hsl(178, 100%, 34%);
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+#pfp:hover{
+    cursor: pointer;
+}
+
+  .container:hover .middle {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  #eyeball:hover #eyeball {
+    opacity: 1;
+  }
