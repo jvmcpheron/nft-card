@@ -89,12 +89,7 @@ span:hover{
     color:aqua;
 }
 
-.middle {
-    border-radius: 7px;
-    width: 300px;
-    height: 300px;
-    background-color:hsl(178, 75%, 31%);
-    transition: .5s ease;
+#eyeball{
     opacity: 0;
     position: absolute;
     top: 34%;
@@ -113,11 +108,23 @@ span:hover{
     border: 1px solid rgb(34, 176, 176);
 }
 
-  .container:hover .middle {
-    opacity: 0.75;
-    cursor: pointer;
-  }
 
-  #eyeball:hover #eyeball {
+
+  .hover-color:hover #eyeball{
     opacity: 1;
   }
+
+.hover-color{
+    width: 300px;
+    transition: .5s ease;
+    background-color:hsl(178, 100%, 50%);
+}
+
+.hover-color:hover{
+    cursor: pointer;
+}
+
+.hover-color:hover #nft-img{
+    opacity: .5;
+
+}
